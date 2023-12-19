@@ -13,6 +13,6 @@ const methods = {
     }
 }
 
-const dog1 = Object.assign(Dog, methods)
+const dog1 = Object.assign(Dog.prototype, methods)
 
 dog1.run()
